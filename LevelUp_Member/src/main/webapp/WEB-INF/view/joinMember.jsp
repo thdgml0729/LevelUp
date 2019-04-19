@@ -173,7 +173,7 @@
 			<span class="err" id="err_birth"></span>
 		</div>
 		<div class="row">
-			<label>성별</label><br>
+			<label>성별</label>
 			<select  class="int" name="gender">
 				<option>성별</option>
 				<option value="남">남자</option>
@@ -182,12 +182,12 @@
 			<span class="err" id="err_gender"></span>
 		</div>
 		<div class="row">
-			<label>본인확인 이메일(선택)</label><br>
+			<label>본인확인 이메일(선택)</label>
 			<input type="text" name="email" placeholder="선택입력" maxlength="100" class="int"><br>
 			<span class="err" id="err_email"></span>
 		</div>
 		<div class="row">
-			<label>휴대전화</label><br>
+			<label>휴대전화</label>
 			<input type="text" name="phone" placeholder="전화번호 입력"  class="int">
 			<input type="button" value="인증번호 받기" onclick="certi()"><br>
 			<label>인증번호</label><input type="text" placeholder="인증번호 입력하세요" name="certi">
